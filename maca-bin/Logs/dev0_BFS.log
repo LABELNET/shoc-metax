@@ -1,0 +1,15 @@
+Chose device: name='Device 4001' index=0
+Vertices: 1000
+Edges: 999
+Running Benchmark
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+[18:03:34.329][MCR][E]mc_runtime_api.cpp       :839 : 752726: [7f39516b0a00] mcFreeHost: Returned mcErrorInvalidValue

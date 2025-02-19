@@ -1,0 +1,52 @@
+Chose device: name='Device 4001' index=0
+Running single precision test
+
+Performing stencil operation on host for later comparison with CUDA output
+Depending on host capabilities, this may take a while.
+Performing 1 warmup passes...done.
+
+Performing stencil operation on chosen device, 10 passes.
+Depending on chosen device, this may take a while.
+At the end of each pass the number of validation
+errors observed will be printed to the standard output.
+pass 0: 0 validation errors
+pass 1: 0 validation errors
+pass 2: 0 validation errors
+pass 3: 0 validation errors
+pass 4: 0 validation errors
+pass 5: 0 validation errors
+pass 6: 0 validation errors
+pass 7: 0 validation errors
+pass 8: 0 validation errors
+pass 9: 0 validation errors
+
+
+DP supported
+
+Performing stencil operation on host for later comparison with CUDA output
+Depending on host capabilities, this may take a while.
+Performing 1 warmup passes...done.
+
+Performing stencil operation on chosen device, 10 passes.
+Depending on chosen device, this may take a while.
+At the end of each pass the number of validation
+errors observed will be printed to the standard output.
+pass 0: 0 validation errors
+pass 1: 0 validation errors
+pass 2: 0 validation errors
+pass 3: 0 validation errors
+pass 4: 0 validation errors
+pass 5: 0 validation errors
+pass 6: 0 validation errors
+pass 7: 0 validation errors
+pass 8: 0 validation errors
+pass 9: 0 validation errors
+
+
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+DP_Sten2D	1000:512x512:8x256	GFLOPS	131.963	132.059	1.09761	129.202	133.231	131.936	129.202	131.96	131.691	131.965	131.88	133.231	132.667	133.213	132.841	
+SP_Sten2D	1000:512x512:8x256	GFLOPS	182.655	182.096	3.96349	175.225	188.042	188.042	185.371	179.199	180.614	180.955	184.586	185.744	175.225	184.355	176.871	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

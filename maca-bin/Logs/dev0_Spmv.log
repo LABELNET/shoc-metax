@@ -1,0 +1,140 @@
+Chose device: name='Device 4001' index=0
+Single precision tests:
+CSR Test
+CSR Scalar Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+CSR Vector Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+CSR Test -- Padded Data
+CSR Scalar Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+CSR Vector Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+ELLPACKR Test
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+Double precision tests:
+CSR Test
+CSR Scalar Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+CSR Vector Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+CSR Test -- Padded Data
+CSR Scalar Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+CSR Vector Kernel
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+ELLPACKR Test
+Pass 0: Passed
+Pass 1: Passed
+Pass 2: Passed
+Pass 3: Passed
+Pass 4: Passed
+Pass 5: Passed
+Pass 6: Passed
+Pass 7: Passed
+Pass 8: Passed
+Pass 9: Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+CSR-Scalar-DP	10485_elements_1024_rows	Gflop/s	0.268782	0.268753	0.000160208	0.26843	0.269038	0.268659	0.268897	0.268782	0.268659	0.268862	0.2688	0.26843	0.269038	0.268624	0.268782	
+CSR-Scalar-DP_PCIe	10485_elements_1024_rows	Gflop/s	0.15773	0.157742	0.000304663	0.157303	0.158166	0.158166	0.157336	0.1576	0.157861	0.157931	0.157303	0.157479	0.157992	0.158154	0.1576	
+CSR-Scalar-SP	10485_elements_1024_rows	Gflop/s	0.315017	0.309892	0.0154921	0.263423	0.315406	0.263423	0.314994	0.315345	0.3152	0.315369	0.315406	0.315041	0.314618	0.314885	0.314643	
+CSR-Scalar-SP_PCIe	10485_elements_1024_rows	Gflop/s	0.118878	0.116057	0.00838281	0.0909186	0.119111	0.0909186	0.118707	0.11893	0.119082	0.118589	0.119111	0.119059	0.118826	0.118349	0.119002	
+CSR-Vector-DP	10485_elements_1024_rows	Gflop/s	1.84201	1.83872	0.0106086	1.81587	1.85494	1.84574	1.84367	1.83253	1.84658	1.82681	1.84159	1.84242	1.83705	1.81587	1.85494	
+CSR-Vector-DP_PCIe	10485_elements_1024_rows	Gflop/s	0.315698	0.315599	0.000313637	0.314921	0.316075	0.315807	0.315746	0.315418	0.315832	0.315248	0.315685	0.31571	0.315552	0.314921	0.316075	
+CSR-Vector-SP	10485_elements_1024_rows	Gflop/s	1.99159	1.99324	0.0101729	1.97908	2.01313	1.98869	1.99693	1.99596	1.9945	2.0077	2.01313	1.98531	1.98724	1.98387	1.97908	
+CSR-Vector-SP_PCIe	10485_elements_1024_rows	Gflop/s	0.174608	0.174621	7.78568e-05	0.174512	0.174772	0.174586	0.174649	0.174642	0.174631	0.174731	0.174772	0.17456	0.174575	0.174549	0.174512	
+ELLPACKR-DP	10485_elements_1024_rows	Gflop/s	0.232899	0.232871	0.000186525	0.232407	0.233114	0.232407	0.232743	0.233041	0.232929	0.232902	0.232896	0.23281	0.232856	0.233114	0.233008	
+ELLPACKR-SP	10485_elements_1024_rows	Gflop/s	0.26069	0.260686	0.000303329	0.260193	0.261139	0.260193	0.26074	0.261064	0.26064	0.260591	0.260815	0.261139	0.260259	0.260466	0.260948	
+Padded_CSR-Scalar-DP	16832_elements_1024_rows	Gflop/s	0.3696	0.369623	0.000155226	0.369424	0.369902	0.369902	0.369756	0.369559	0.369766	0.369517	0.369424	0.369642	0.369746	0.369486	0.369434	
+Padded_CSR-Scalar-DP_PCIe	16832_elements_1024_rows	Gflop/s	0.226894	0.2267	0.000778196	0.224468	0.227257	0.22692	0.227257	0.224468	0.226869	0.226775	0.227131	0.226431	0.226861	0.227155	0.227135	
+Padded_CSR-Scalar-SP	16832_elements_1024_rows	Gflop/s	0.470113	0.470001	0.000503214	0.469341	0.470871	0.469408	0.470871	0.469693	0.469408	0.470281	0.470651	0.469341	0.47013	0.470113	0.470113	
+Padded_CSR-Scalar-SP_PCIe	16832_elements_1024_rows	Gflop/s	0.264093	0.264223	0.000385563	0.263675	0.26479	0.264513	0.263913	0.264603	0.263982	0.26479	0.263844	0.263961	0.264742	0.264205	0.263675	
+Padded_CSR-Vector-DP	16832_elements_1024_rows	Gflop/s	2.84786	2.84753	0.0212668	2.81103	2.88567	2.88567	2.87243	2.83772	2.81826	2.85807	2.81103	2.84879	2.85311	2.84324	2.84694	
+Padded_CSR-Vector-DP_PCIe	16832_elements_1024_rows	Gflop/s	0.48853	0.488516	0.00062611	0.487434	0.48963	0.48963	0.489248	0.488231	0.487651	0.488829	0.487434	0.488557	0.488684	0.488394	0.488503	
+Padded_CSR-Vector-SP	16832_elements_1024_rows	Gflop/s	3.16223	3.16305	0.0232227	3.12055	3.19718	3.18479	3.19718	3.17173	3.12055	3.15121	3.14819	3.15272	3.18017	3.13842	3.18556	
+Padded_CSR-Vector-SP_PCIe	16832_elements_1024_rows	Gflop/s	0.504634	0.504652	0.000592088	0.503561	0.505517	0.505206	0.505517	0.504876	0.503561	0.504353	0.504276	0.504392	0.505089	0.504025	0.505225	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

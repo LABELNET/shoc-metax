@@ -1,0 +1,19 @@
+Chose device: name='Device 4001' index=0
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+Sort-Rate	262144items	GB/s	4.3321	4.01068	0.962549	1.12466	4.38309	1.12466	4.32981	4.33669	4.30026	4.33439	4.38309	4.29125	4.37841	4.28004	4.3482	
+Sort-Rate_PCIe	262144items	GB/s	3.09777	2.89273	0.638635	0.977682	3.1411	0.977682	3.10538	3.0855	3.09015	3.11128	3.1411	3.09015	3.1303	3.07854	3.1172	
+Sort-Rate_Parity	262144items	N	0.393707	0.370284	0.0734553	0.150329	0.405506	0.150329	0.394292	0.405506	0.391601	0.393122	0.395399	0.388685	0.398717	0.390282	0.394904	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

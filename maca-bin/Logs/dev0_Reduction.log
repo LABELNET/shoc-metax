@@ -1,0 +1,38 @@
+Chose device: name='Device 4001' index=0
+Running single precision test
+Initializing host memory.
+Running benchmark.
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Running double precision test
+Initializing host memory.
+Running benchmark.
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+Reduction	262144_items	GB/s	95.6686	92.0967	10.3507	61.0738	95.9531	61.0738	94.271	95.7691	95.7954	95.8216	95.4553	95.673	95.49	95.9531	95.6643	
+Reduction-DP	131072_items	GB/s	104.191	104.139	0.316125	103.635	104.763	103.819	103.635	104.763	104.129	104.253	103.861	104.45	103.953	104.274	104.253	
+Reduction-DP_PCIe	131072_items	GB/s	14.204	14.1485	0.151362	13.8278	14.3072	14.0537	14.2955	14.1194	14.3049	14.2074	14.2006	13.8278	13.9604	14.2083	14.3072	
+Reduction-DP_Parity	131072_items	N	6.33842	6.36132	0.0874252	6.24946	6.55364	6.38733	6.24946	6.41982	6.27925	6.33794	6.31379	6.55364	6.44632	6.3389	6.28674	
+Reduction_PCIe	262144_items	GB/s	13.8949	13.0897	2.40533	5.90997	14.1767	5.90997	13.2364	13.9429	13.8962	13.8497	14.0647	13.8936	14.0747	13.8525	14.1767	
+Reduction_Parity	262144_items	N	5.8899	6.22695	1.04041	5.74802	9.33403	9.33403	6.12209	5.86866	5.89366	5.91867	5.78689	5.88613	5.78454	5.92679	5.74802	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

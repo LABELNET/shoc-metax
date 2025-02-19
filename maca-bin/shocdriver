@@ -1,0 +1,4 @@
+#!/bin/sh
+
+perl /home/metax/mz-test/shoc/libexec/driver.pl -bindir /home/metax/mz-test/shoc/bin $*
+

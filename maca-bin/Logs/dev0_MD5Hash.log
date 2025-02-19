@@ -1,0 +1,7 @@
+Chose device: name='Device 4001' index=0
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+MD5Hash	7x10	GHash/s	15.4611	14.4034	3.15195	4.94775	15.4703	4.94775	15.3971	15.4642	15.4581	15.4642	15.4581	15.4397	15.4642	15.4703	15.4703	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.
